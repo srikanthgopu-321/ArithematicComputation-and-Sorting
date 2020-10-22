@@ -18,3 +18,7 @@ echo
 #uc4
 thirdEquationResult=$(( $input3 + $input1 / $input2 ))
         echo $thirdEquationResult
+echo
+#uc5
+forthEquationResult=$(( $input1 % $input2 + $input3 ))
+        echo $forthEquationResult
