@@ -14,3 +14,7 @@ echo
  
 secondEquationResult=$(( $input1 * $input2 + $input3 ))
         echo $secondEquationResult
+echo
+#uc4
+thirdEquationResult=$(( $input3 + $input1 / $input2 ))
+        echo $thirdEquationResult
