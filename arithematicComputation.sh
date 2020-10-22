@@ -9,3 +9,8 @@ echo
 #uc2
 firstEquationResult=$(( $input1 + $input2 * $input3))
         echo $firstEquationResult
+echo
+#uc3
+ 
+secondEquationResult=$(( $input1 * $input2 + $input3 ))
+        echo $secondEquationResult
