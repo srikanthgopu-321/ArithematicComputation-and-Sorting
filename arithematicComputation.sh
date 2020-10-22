@@ -22,3 +22,10 @@ echo
 #uc5
 forthEquationResult=$(( $input1 % $input2 + $input3 ))
         echo $forthEquationResult
+#uc6
+#declare -p result
+result[firstEquationResult]=$firstEquationResult
+result[secondEquationResult]=$secondEquationResult
+result[thirdEquationResult]=$thirdEquationResult
+result[forthEquationResult]=$fourthEquationResult
+echo ${result[@]}
